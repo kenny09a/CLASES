@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: aquamarine;
+}
+p1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p2 {
+  font-size: 30px;
+  color: cornflowerblue;
+}
+
+p3 {
+  background-color: cornflowerblue;
+}
+
+p4 {
+  border: 4px solid cornflowerblue;
+}
+
+ul {
+  margin-top: 40px;
+  border-bottom: 7px solid cornflowerblue;
+}
+li {
+  border-bottom: 2px dashed cornflowerblue;
+  margin-top: 40px;
+}

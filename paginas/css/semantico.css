@@ -1,0 +1,59 @@
+.titulos {
+  text-align: center;
+  color: rgb(128, 21, 0);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.parrafos {
+  color: blue;
+  font-size: 16px;
+}
+
+header,
+nav,
+section,
+article,
+footer {
+  border: 2px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+header {
+  border-color: lightgreen;
+}
+
+nav {
+  border-color: darkblue;
+}
+
+section.seccion {
+  border-color: blue;
+}
+
+section {
+  border-color: yellow;
+}
+
+footer {
+  border-color: brown;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: darkblue;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: brown;
+  text-decoration: none;
+}

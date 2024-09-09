@@ -1,0 +1,92 @@
++/* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.principal {
+  background-color: antiquewhite;
+  border: 1px solid blue;
+  display: flex;
+}
+
+.sectionA {
+  border: 1px solid aqua;
+  background-color: aquamarine;
+}
+
+.sectionB {
+  border: 1px solid red;
+  background-color: lightcoral;
+}
+
+.sectionC {
+  border: 5px solid green;
+  background-color: lightgreen;
+}*/
+* {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  align-items: center;
+}
+
+.principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "A B C"
+    "A D D"
+    "E F G"
+    "H H G";
+  width: 100vw;
+  height: 100vh;
+}
+
+.sectionA {
+  grid-area: A;
+  background-color: plum;
+  border: 1px solid white;
+}
+
+.sectionB {
+  grid-area: B;
+  background-color: skyblue;
+  border: 1px solid white;
+}
+
+.sectionC {
+  grid-area: C;
+  background-color: skyblue;
+  border: 1px solid white;
+}
+
+.sectionD {
+  grid-area: D;
+  background-color: greenyellow;
+  border: 1px solid white;
+}
+
+.sectionE {
+  grid-area: E;
+  background-color: skyblue;
+  border: 1px solid white;
+}
+
+.sectionF {
+  grid-area: F;
+  background-color: skyblue;
+  border: 1px solid white;
+}
+
+.sectionG {
+  grid-area: G;
+  background-color: plum;
+  border: 1px solid white;
+}
+
+.sectionH {
+  grid-area: H;
+  background-color: greenyellow;
+  border: 1px solid white;
+}
